@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>FLATBOOTS - Ask the Docs</title>
+ 	<meta name="description" content="">
+	<meta name="author" content="ThemeSplat">
+	<meta name="copyright" content="ThemeSplat">
+	<meta name="date" content="2013-11-05T00:00:00+01:00">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/basics.css" rel="stylesheet">
+	<link href="assets/css/prism.css" rel="stylesheet">
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Asap:700' rel='stylesheet' type='text/css'>
+	<link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/fonts/iconmoon/css/style.css" rel="stylesheet">
+	
+	<script src="assets/js/jquery.min.js"></script> 
+    <script src="assets/js/bootstrap.js"></script> 
+	
+</head>
+    
+<body data-spy="scroll" data-target=".bs-docs-container">
+
+<!-- Documentation Navbar -->
+
+<!-- Main Container Beginning -->
+<header id="top" class="navbar navbar-inverse navbar-static-top flat-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">FLATBOOTS <span class="label label-call label-footer" href="http://getbootstrap.com/">phpBB 3.2 - ASK THE DOCS</span></a>
+        <ul class="list-inline lang-selection">
+			<li><a href="Documentation.html" title="English Documentation "><img alt="Gb" src="./images/United-Kingdom.png" class="img-polaroid"></a></li>
+			<li><a href="Documentation_Es.html" title="Documentación en Español"><img alt="Es" src="./images/Spain.png" class="img-polaroid"></a></li>
+		</ul>
+	</div>
+	<nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto:info@sitesplat.com?subject=Freelance%20Request">Request Freelance Work</a></li>
+        <li><a href="http://www.sitesplat.com/">Community Forum</a></li>
+      </ul>
+    </nav>
+  </div>
+ </header>
+		
+    <div class="masthead flat-header">
+    <div class="wrapper-head">
+	 <div class="container">
+	
+	<div class="row">
+	 <div class="col-md-8">
+       <h1>DOCUMENTATION <a class="label label-call" href="#">Rev 2.0.6</a></h1>
+       <p>The "How to" set your new forum up correctly</p>
+	</div>
+	  <div class="col-md-4">
+		<div id="aboutme-container">
+		  <a class="aboutme" href="mailto:info@sitesplat.com?subject=Freelance%20Request">
+			<img alt="Arnold Daniels" src="http://www.gravatar.com/avatar/ba3d931d8ea2703a365bc1dfe3a4174a.png" class="img-circle">
+			<div class="aboutme-text">
+			  <span class="aboutme-title">LOOKING FOR A DEVELOPER?</span>
+			  I'm available for freelance work, I want to hear about your projects.
+			  <span class="aboutme-name">-Dave</span>
+			</div>
+		  </a>
+		</div>
+		</div>
+	</div>
+		
+	 </div>
+	</div>
+    </div>
+	
+		
+<div class="dormient">
+ <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-3">
+          <div role="complementary" class="bs-sidebar hidden-print" data-spy="affix" data-offset-top="220">
+             
+			<ul class="nav bs-sidenav">
+                <li class="">
+				  <a href="#getting-started">Getting Started</a>
+				  <ul class="nav">
+					<li class=""><a href="#tools">Tools</a></li>
+					<li class=""><a href="#installation">Installation</a></li>
+				  </ul>
+				</li>
+				<li class="">
+				  <a href="#customization">Customization</a>
+				  <ul class="nav">
+					<li class=""><a href="#social">Social Icons</a></li>
+					<li class=""><a href="#font">Forum font</a></li>
+					<li class=""><a href="#background">Background</a></li>
+					<li class=""><a href="#twitter">Twitter</a></li>
+					<li class=""><a href="#logo">Logo</a></li>
+					<li class=""><a href="#colors">Colors</a></li>
+					<li class=""><a href="#icheck">Checkbox and Radio</a></li>
+					<li class=""><a href="#navigation">Navigation</a></li>
+					<li class=""><a href="#header">Header</a></li>
+					<li class=""><a href="#footer">Footer</a></li>
+				  </ul>
+				</li>
+				<li class="">
+				  <a href="#recent-topic">Recent topics</a>
+				</li>
+				<li class="">
+				  <a href="#translations">Translations</a>
+				</li>
+				<li class="">
+				  <a href="#extensions">Extensions</a>
+				</li>
+            </ul>
+          </div>
+        </div>
+        <div role="main" class="col-md-9">
+            
+<div class="bs-docs-section">
+<!-- SECTION ================================================== -->
+	<div class="page-header">
+      <h1 id="getting-started">Getting Started</h1>
+    </div>
+    <p>Thank-you for purchasing FLATBBOOTS, the first and the only fully Responsive phpBB 3.2 style that truly integrates fully the Bootstrap Framework. Dozens of reusable components are built in to provide navigation, alerts, popovers, and much more.</p>
+
+	<img class="img-responsive center-block" src="images/Preview_590x300.png" alt="Intro">
+	
+    <div class="bs-callout bs-callout-info">
+      <h4>Freelance</h4>
+      <p>If you have any questions that are beyond the scope of this help file, please feel free to email via my user page on ThemeForest or send an email at: info@sitesplat.com. I am available for freelance work to customize you favorite phpBB3 mods or to extend BBOOTS according to your needs. Email me for a quote</p>
+    </div>
+
+	<div class="side-segment"><h3 id="tools">Tools</h3></div>
+     <p>The software suggested that you will need to perform any manual edits for the template files and/or upload phpBB extensions mentioned in this guide are two:
+    <ul>
+     <li>Please, visit the FAQ Support (<a data-original-title="" href="http://www.sitesplat.com/phpBB3/viewtopic.php?f=15&t=1382" target="_blank" title="">there are many doubts solved</a>).</li>
+     <li>Notepad++ (<a data-original-title="" href="http://notepad-plus-plus.org/" target="_blank" title="">notepad-plus-plus.org</a>)</li>
+     <li>Upload Extensions (<a data-original-title="" href="http://www.sitesplat.com/phpBB3/viewtopic.php?f=27&t=1268" target="_blank" title="">Upload extensions</a>)</li>	
+	</ul>
+	 </p>
+	 
+	 <p>
+	 <strong>* "Notepad++":</strong> will allow you to save your files without BOM by default. (Older servers or vendor-specific servers have a problem interpreting them and throw errors because the scripts produce output before they should.)
+	 You can also refer to this text editors list: <a data-original-title="" href="https://wiki.phpbb.com/Text_Editors" target="_blank" title="">Text Editors</a>
+	 <br /> <br />
+	 <strong>** "Upload extension":</strong> is a neat phpBB extension will allow you to comfortably upload extensions directly from your Administration Control Panel (ACP).
+	 </p>
+	 
+	 <div class="space10"></div>
+	 <div class="space10"></div>
+	 
+	 <img class="img-responsive center-block" src="images/bom.png" alt="BOM">
+	 
+	<div class="bs-callout bs-callout-warning">
+      <h4>BOM</h4>
+      <p>Byte Order Mark (BOM), is a Unicode character used to signal the endianness (byte order) of a text file or stream. It is encoded at U+FEFF byte order mark (BOM). BOM use is optional, and, if used, should appear at the start of the text stream. Beyond its specific use as a byte-order indicator, the BOM character may also indicate which of the several Unicode representations the text is encoded in.</p>
+    </div>
+	
+    <div class="side-segment"><h3 id="installation">Installation</h3></div>
+     <p>In order to install successfully FLATBOOTS and add proper functionality to your phpBB 3.2 forum, there are two main steps necessary that must be executed.
+      <ol>
+	   <li>Install FLATBOOTS</li>
+	   <li>Install the BBcore&#8482; (Available in the documentation folder)</li>
+	  </ol> 
+	</p>
+      
+	<div class="install-section">
+	<strong>How to install the theme: (4 steps)</strong>
+	<ol>
+	    <li>Upload the "FLATBOOTS" entire folder in your <code>root/styles/</code> folder of your server</li>
+		<li>Log in to your phpBB 3.2 Administration Control Panel (also known as ACP).</li>
+		<li>Click on the "Customise" top navigation tab bar, then click on "Install styles" in the left inside list</li>
+		<li>Locate the FLATBOOTS theme (previously uploaded in your root folder in step #1) and click on "Install style" to install the theme.</li>
+		<div class="space10"></div>
+		<img class="img-responsive center-block" src="images/customise-style.png" alt="Customise">
+	</ol>
+	
+	<div class="space10"></div>
+	 <div class="space10"></div>
+	<div class="alert alert-success"><strong>Congrats!</strong> Assuming all went well with the above you are now half way through! Ready for phase two now :-) Keep reading below.</div>
+	
+	<strong>How to install the BBcore: (4 steps)</strong>
+    <ol>
+		<li>From the documentation folder locate the BBcore and unzip the content (sitesplat folder) directly into the <code>root/ext/</code> folder on your server</li>
+		<li>Click the "Customise" tab in the top navigation tab bar</li>
+		<li>Now click on "Enable" in the extension list</li>
+		<div class="space10"></div>
+		<img class="img-responsive center-block" src="images/bbcore-install.png" alt="Customise">
+		<li>You may see a message confirming that the BBCore extension has been enabled successfully. Well done enjoy!</li>
+		<div class="space10"></div>
+		<img class="img-responsive center-block" src="images/bbcore-success.png" alt="Customise">
+      </ol>
+	  
+	<div class="space10"></div>
+	 <div class="space10"></div>
+
+    <div class="bs-callout bs-callout-warning">
+      <h4>BBcore error</h4>
+      <p><strong>If an error message appears after enabling the BBcore, please check the admin log and then post on the community support forum for help.</strong></p>
+	  <div class="space10"></div>
+		<img class="img-responsive center-block" src="images/bbcore-error.png" alt="Customise">
+      <div class="space10"></div>
+		<img class="img-responsive center-block" src="images/bbcore-error-log.png" alt="Customise">
+   </div>
+    </div>
+</div>
+
+
+  <!-- Alerts ================================================== -->
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="customization">Customization</h1>
+    </div>
+
+	 <div class="bs-callout bs-callout-warning">
+      <h4>Custom Edits - Custom.css stylesheet ONLY!</h4>
+      <p>All your edits to the style must be added to the custom.css stylesheet included in the <code>custom.css</code>. This will leave the original FLATBOOTS code intact and it will be easier for future style updates to carry over your customization</p>
+    </div>
+	
+	<div class="bs-callout bs-callout-info">
+      <h4>Mini CMS addon?</h4>
+      <p>Do you have the Mini CMS installed? Are you planning to install the Mini CMS? <a href="http://www.sitesplat.com/phpBB3/">(Mini CMS)</a> If the answer is yes then you do NOT need to edit the custom.css file. The Mini CMS allows you to edit directly this file via Admin Control Panel (ACP).<br />
+	  <img class="img-responsive center-block" src="images/minicms.png" alt="Customise">
+	  </p>
+    </div>
+	
+	<p>To activate your custom.css stylesheet open <code>FLATBOOTS/template/overall_header.html</code> and find the following commented lines:</p>
+	
+	<pre class="language-markup"><code>&lt;!-- Remove the conditional below to use the custom CSS without FLATBOOTS Mini CMS Extension --&gt;
+&lt;!-- IF S_ALLOW_CUSTOMCSS --&gt;
+	&lt;link href=&quot;{T_THEME_PATH}/custom.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;!-- ENDIF --&gt;</code></pre>
+	
+	<p>uncomment the two line above and below the <code>&lt;link href=&quot;{T_THEME_PATH}/custom.css&quot; rel=&quot;stylesheet&quot;&gt;</code> so that the entire block will look like this:</p>
+	
+	<pre class="language-markup"><code>&lt;link href=&quot;{T_THEME_PATH}/custom.css&quot; rel=&quot;stylesheet&quot;&gt;</code></pre>
+	
+	
+	
+    <div class="side-segment"><h3 id="social">Social icons</h3></div>
+     <p>To add or remove social icons open the following template file: FLATBOOTS/template/overall_footer.html and look for:</p>
+	 <pre class="language-markup"><code>&lt;ul class=&quot;social-network&quot;&gt;</code></pre>
+    
+	 <p>Control your social links by adding or removing this line of code:</p>
+	 
+	 <pre class="language-markup"><code>&lt;a title="Google+" href="#1"&gt;&lt;i class="fa fa-google-plus google-plus-color"&gt;&lt;/i&gt;&lt;/a&gt;</code></pre>
+
+	 <p>You can change the icons by using any of the font awesome icon classes ready available (you can refer to this list: <a href="http://fortawesome.github.io/Font-Awesome/icons/">FontAwesome</a>).</p>
+	   
+	 <pre class="language-markup"><code>fa fa-google-plus</code></pre>
+  
+
+  
+  <div class="side-segment"><h3 id="font">FORUM FONT</h3></div>
+     <p>You can change the font by adding and removing the through a simple link generated with google free font library</p>
+	 
+	 
+	 <img class="img-responsive center-block" src="images/google.jpg" alt="Google Fonts">
+	 
+	 <p>Choose your font from here: <a href="http://www.google.com/fonts">Google free font</a> then in the overall_header.html find:</p>
+	 
+	 <pre class="language-markup"><code>&lt;!-- Google free font here --&gt;</code></pre>
+    
+	 <p>then add your font link below that line:</p>
+	 
+	 <pre class="language-markup"><code>&lt;link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'&gt;</code></pre>
+
+	 <p>Now you need to call the font family for the various elements. Lets say you would like to replace the font body with the Roboto family type. 
+	 In this case you would add this to your <code>custom.css</code> located in <code>FLATBOOTS/theme/</code> folder. Your code should look like this:</p>
+	   
+
+	<pre class="language-css"><code>body {
+  color: #8d9aa5;
+  margin: 0;
+  font-family: 'Roboto','Arial','Helvetica',sans-serif;
+  background-color: #ECF0F1;
+}</code></pre>
+  
+  
+  
+  <div class="side-segment"><h3 id="background">Background</h3></div>
+  <p>For the main forum background image and or color add the following sample to: <code>FLATBOOTS/theme/custom.css</code> </p>
+  
+  <pre class="language-css"><code>body {
+    background: url(&quot;./images/tile-bg-head.png&quot;) repeat fixed 0 0 #26bcb5;
+}</code></pre>
+  
+  <div class="bs-callout bs-callout-warning">
+      <h4>Don't forget your image</h4>
+      <p>Make sure to upload your image in the FLATBOOTS/theme/images/ folder and then clear your forum, theme and browser cache for the changes to show up</p>
+    </div>
+  
+  <div class="side-segment"><h3 id="twitter">Twitter</h3></div>
+
+	 <p>In order to get the Twitter feed from your own Twitter page you need to have a valid Twitter account and then add the Twitter account handler to the forum footer.</p>
+      
+	  <p>Open the <code>overall_footer.html</code> file and find this line:</p>
+	 
+	 <pre class="language-markup"><code>&lt;!-- ELSE --&gt;sitesplat&lt;!-- ENDIF --&gt;</code></pre>
+  
+    <p>Replace the text "sitesplat" with your own twitter handler. That's it! your twitter feed will now be displayed in the footer seection.</p>
+  
+    <p>You can also set your a visible and clickable Twitter handle. Open the <code>overall_footer.html</code> file and find this line:</p>
+  
+    <pre class="language-markup"><code>&lt;a href=&quot;https://twitter.com/SiteSplat&quot;&gt;{L_JOIN_US_TWITTER}&amp;nbsp;&lt;small&gt;@SiteSplat&lt;/small&gt;&lt;/a&gt;</code></pre>
+  
+    <p>Replace this link: <code>https://twitter.com/SiteSplat</code> with your own Twitter link page</p>
+    <p>Replace this Twitter handle: <code>@SiteSplat</code> with your own Twitter handle</p>
+  
+  
+    <div class="side-segment"><h3 id="logo">Logo</h3></div>
+	 <p>Open the <code>overall_header.html</code> template file located in: <code>FLATBOOTS/template/</code> and find:</p>
+	 
+	 <pre class="language-markup"><code>&lt;a class=&quot;navbar-brand&quot; href=&quot;&lt;!-- IF U_SITE_HOME --&gt;{U_SITE_HOME}&lt;!-- ELSE --&gt;{U_INDEX}&lt;!-- ENDIF --&gt;&quot;&gt;{L_FLATBOOTS}&lt;/a&gt;</code></pre>
+  
+     <p>Replace the string <code>{L_FLATBOOTS}</code> with your IMG tag:</p>
+  
+    <pre class="language-markup"><code>&lt;img style=&quot;max-width:100px; margin-top: -8px;&quot; src=&quot;{T_THEME_PATH}/images/logo.png&quot; class=&quot;img-responsive&quot; alt=&quot;Forum Logo&quot;&gt;</code></pre>
+    
+	<div class="bs-callout bs-callout-warning">
+      <h4>Upload your logo</h4>
+      <p>You logo should be uploaded in the following folder: <code>FLATBOOTS/theme/images/</code></p>
+    </div>
+  
+    <p>In order to have it displayed you also need to refresh your theme, forum and browser cache as shown below:</p>
+	
+	<pre class="language-markup"><code></code>
+		A) Purge the Forum cache:
+
+		1) Navigate to General Tab
+		2) look at Purge the cache
+		3) Click on "Run Now" button at right
+		4) in the next screen, click on "Yes" to confirm
+
+		B) Purge the browser cache :
+
+		1) Hit F5 on your browser or CTRL+F5</pre>
+	
+	
+	
+  <div class="side-segment"><h3 id="colors">Colors</h3></div>
+	 <p>Change colors with a click with the COLORIZE service:</p>
+	 
+	 <img class="img-responsive center-block" src="images/colorize.png" alt="COLORIZE">
+	 
+	 <p>You can find the COLORIZE service at <a href="http://www.sitesplat.com/phpBB3/themer.php">www.sitesplat.com/phpBB3/themer.php</a> to generate your own custom color.</p>
+	 
+	 <p>Once you generated your own color, Open the following CSS stylesheet located in: <code>FLATBOOTS/theme/custom.css</code> and paste your code after the following comment block in that stylesheet:</p>
+	 
+	 
+	 <div class="bs-callout bs-callout-warning">
+      <h4>Enable the custom.css stylesheet!</h4>
+      <p>Make sure to enable the custom.css stylesheet in the overall_header.html file as described here: <a href="#customization">Customization</a></p>
+    </div>
+	 
+	 <pre class="language-markup"><code>/*****************************************************************
+ * Custom CSS Stylesheet. You can add any custom CSS selectors here after the comment line. 
+ * They will be given the highest priority on any elements on the forum
+ * Personalize your forum color scheme in one click here: www.sitesplat.com/phpBB3/ 
+ * **************************************************************
+ *
+ * FLATBOOTS @SiteSplat.com - Custom CSS STYLESHEET - 
+ * 
+ * **************************************************************
+ *****************************************************************/
+ </code></pre>
+  
+    <p>If you wish to change come colors manually you can find some common locations in the CSS code generated via the COLORIZE service.</p>
+	
+	<p>For example if you would like to change the Header background color or the "call To Action" bar background color you can find the commented references in the custom generated with COLORIZE:</p>
+	
+	<pre class="language-css"><code>/* FLATBOOTS Teaser Header Background color */
+.masthead:before {
+	background-color: #50a846;
+}
+/* FLATBOOTS Footer Call to Action Background Color */
+.mastbottom {
+	background-color: #50a846;
+}
+</code></pre>
+	
+	<div class="bs-callout bs-callout-warning">
+      <h4>Clear the Cache</h4>
+      <p>Make sure to purge the theme, forum and browser cache everytime you add a new color!</p>
+    </div>
+	
+	
+	<pre class="language-markup"><code>
+		A) Purge the Forum cache :
+
+		1) Navigate to General Tab
+		2) look at Purge the cache
+		3) Click on "Run Now" button at right
+		4) in the next screen, click on "Yes" to confirm
+
+		B) Purge the browser cache :
+
+		1) Hit F5 on your browser or CTRL+F5</code></pre>
+	 
+  
+  
+    <div class="side-segment"><h3 id="icheck">Checkbox and Radio</h3></div>
+	 <p>Super customized checkboxes and radio buttons for your style!</p>
+	 
+	 <img class="img-responsive center-block" src="images/icheck.png" alt="Checkbox and Radio">
+	 
+	 <h5>Plugin features</h5>
+	 <ul>
+        <li>
+          <strong>Identical inputs across different browsers and devices</strong> &mdash; both <span data-to="download" class="self">desktop and mobile</span>
+        </li>
+        <li>
+          <strong>Touch devices support</strong> &mdash; iOS, Android, BlackBerry, Windows Phone, Amazon Kindle
+        </li>
+        <li>
+          <strong>Keyboard accessible inputs</strong> &mdash; <span class="mark">Tab</span>, <span class="mark">Spacebar</span>, <span class="mark">Arrow up/down</span> and other shortcuts
+        </li>
+        <li>
+          <strong>Screenreader accessible inputs</strong> &mdash; <a target="blank" href="https://developer.mozilla.org/en-US/docs/Accessibility/ARIA">ARIA</a> attributes for VoiceOver and others
+        </li>
+        <li>
+          <strong>Customization freedom</strong> &mdash; use any HTML and CSS to style inputs (try <span data-to="skins" class="self">6 Retina-ready skins</span>)
+        </li>
+        <li class="offset">
+          <strong data-to="options" class="self">32 options</strong> to customize checkboxes and radio buttons
+        </li>
+        <li>
+          <strong data-to="callbacks" class="self">11 callbacks</strong> to handle changes
+        </li>
+        <li>
+          <strong data-to="methods" class="self">9 methods</strong> to make changes programmatically
+        </li>
+        <li>
+          Saves changes to original inputs, <span data-to="init" class="self">works carefully</span> with any selectors
+        </li>
+      </ul>
+	 
+	 <p>The checkbox and radio colors can be easily changed.</p>
+	 
+	 
+	 <ol class="skin-usage">
+              <li>
+                Open the documentation folder and copy the content of the custom.css stylesheet (It includes 10 different colors as shown in the screenshot above) and paste it into: <code>FLATBOOTS/theme/custom.css</code>.
+              </li>
+              
+            </ol>
+	 
+	 <p>For different from the default color schemes use this code (example for <strong>Red</strong>) open <code>FLATBOOTS/template/overall_footer.html</code> and find:</p>
+	 <pre class="language-css"><code>"icheckbox_flat-aero"</code></pre>
+  
+     <p> replace it with (for the checkbox):</p>
+	 
+	 <pre class="language-css"><code>"icheckbox_flat-red"</code></pre>
+	 
+	 <p>Find:</p>
+	 
+	 <pre class="language-css"><code>"iradio_flat-aero"</code></pre>
+  
+     <p> replace it with (for the radio):</p>
+	 
+	 <pre class="language-css"><code>"iradio_flat-red"</code></pre>
+	 
+    <p>The color code definitions ready to be used are the following:</p>
+	
+	<h5>Checkbox</h5>
+	<ol>
+	 <li><code>"icheckbox_flat-red"</code></li>
+	 <li><code>"icheckbox_flat-green"</code></li>
+	 <li><code>"icheckbox_flat-blue"</code></li>
+	 <li><code>"icheckbox_flat-grey"</code></li>
+	 <li><code>"icheckbox_flat-orange"</code></li>
+	 <li><code>"icheckbox_flat-yellow"</code></li>
+	 <li><code>"icheckbox_flat-pink"</code></li>
+	 <li><code>"icheckbox_flat-purple"</code></li>
+	</ol>
+  
+    
+	<h5>Radio</h5>
+    <ol>
+	 <li><code>"iradio_flat-red"</code></li>
+	 <li><code>"iradio_flat-green"</code></li>
+	 <li><code>"iradio_flat-blue"</code></li>
+	 <li><code>"iradio_flat-grey"</code></li>
+	 <li><code>"iradio_flat-orange"</code></li>
+	 <li><code>"iradio_flat-yellow"</code></li>
+	 <li><code>"iradio_flat-pink"</code></li>
+	 <li><code>"iradio_flat-purple"</code></li>
+	</ol>
+	
+	
+  
+    <div class="side-segment"><h3 id="navigation">Navigation</h3></div>
+	 <p>The main navigation bar can be adjusted to behave in different ways.</p>
+	   
+	   <img class="img-responsive center-block" src="images/navigation.png" alt="Navigation">
+	   
+	 <p>The current options are:</p>
+	 
+	  <ul>
+	   <li>Standard (Default)</li>
+	   <li>Fixed Top (AKA Sticky)</li>
+	   <li>Fixed Bottom</li>
+	   <li>Change/edit links</li>
+	  </ul>
+	 
+	 <h4>Fixed Top</h4>
+	 <p>The <strong>Fixed Top</strong> option will allow you to have a Fixed (Sticky) navigation bar that will maintain the position regardless of the scrolling of the main content. This is especially useful for mobile devices.</p>
+	 <p>In order to activate the Fixed Top navigation you simply need to add two classes to the navigation bar and the main header banner.</p>
+	 
+	 <p>Open <code>FLATBOOTS/template/overall_header.html</code> and find:</p>
+	 
+	 <pre class="language-markup"><code>&lt;header id=&quot;top&quot; class=&quot;navbar navbar-inverse navbar-static-top flat-nav&quot;&gt;</code></pre>
+  
+     <p>Replace it with:</p>
+	
+	<pre class="language-markup"><code>&lt;header id=&quot;top&quot; class=&quot;navbar navbar-inverse navbar-static-top flat-nav navbar-fixed-top&quot;&gt;</code></pre>
+    
+	
+    <p>Open <code>FLATBOOTS/template/addons/header_teaser_body.html</code> and find:</p>
+  
+     <pre class="language-markup"><code>&lt;div class=&quot;flat-header&quot;&gt;</code></pre>
+  
+     <p>Replace it with:</p>
+  
+     <pre class="language-markup"><code>&lt;div class=&quot;flat-header flat-header-fixed-top&quot;&gt;</code></pre>
+  
+  
+    <p>There is a known issue with the sticky navigation. For additional information see: <a href="https://github.com/twbs/bootstrap/issues/1768">https://github.com/twbs/bootstrap/issues/1768</a> and also: <a href="https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header">https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header</a>. However a workaround can be applied. Open the <code>FLATBOOTS/template/viewtopic_body.html</code> and find:</p>
+	
+	<pre class="language-markup"><code>&lt;!-- INCLUDE overall_footer.html --&gt;</code></pre>
+    
+	<p>Before on a new line add:</p>
+	
+	<pre class="language-markup"><code>&lt;script&gt;
+head.ready(function () {
+ !function(o,n){var t=function(){var n=o(":target"),t=100;n.length>0&&o("html, body").stop().animate({scrollTop:n.offset().top-t},200)};o(n).on("hashchange load",function(){t()})}(jQuery,window);
+});
+&lt;/script&gt;</code></pre>
+  
+     <div class="space10"></div>
+	  <div class="space10"></div>
+	 <h4>Fixed Bottom</h4>
+	 <p>The <strong>Fixed Bottom</strong> option will allow you to have a Fixed (Sticky) navigation bar like the above option but the position will be at the bottom of the forum instead.</p>
+	 
+	 
+	 <p>Open <code>FLATBOOTS/template/overall_header.html</code> and find:</p>
+     <pre class="language-markup"><code>&lt;header id=&quot;top&quot; class=&quot;navbar navbar-inverse navbar-static-top flat-nav&quot;&gt;</code></pre>
+    
+	<p>Replace it with:</p>
+    
+	<pre class="language-markup"><code>&lt;header id=&quot;top&quot; class=&quot;navbar navbar-inverse navbar-static-top flat-nav navbar-fixed-bottom&quot;&gt;</code></pre>
+  
+  
+   <div class="space10"></div>
+	  <div class="space10"></div>
+	 <h4>Change/edit links</h4>
+	 <p>The default links can be changed, edited or added by editing the navigation file. Open: <code>FLATBOOTS/template/addons/navigation.html</code> in order to change, edit or add links.</p>
+	 
+     
+  
+    <div class="side-segment"><h3 id="header">Header</h3></div>
+	 <p>The Header tile is stored in the <code>addons</code> folder within the FLATBOOTS template folder.</p>
+	
+	 <img class="img-responsive center-block" src="images/header.png" alt="Header">
+ 
+     <p>This block can be modifed to reflect your forum community slogan and/or favorite images.</p>
+ 
+     <p>the current available options are:</p>
+	 
+	  <ul>
+	   <li>Standard (Default)</li>
+	   <li>Change image and color</li>
+	   <li>Animation Turn ON/OFF</li>
+	  </ul>
+ 
+     <p>Open <code>FLATBOOTS/template/addons/header_teaser_body.html</code> and find:</p>
+	 
+	 <pre class="language-markup"><code>&lt;h1&gt;{L_FLATBOOTS_INTRO}&amp;nbsp;&lt;a class=&quot;label label-call&quot; href=&quot;http://getbootstrap.com/&quot;&gt;{L_BOOTSTRAP_VERSION}&lt;/a&gt;&lt;/h1&gt; 
+	 &lt;p&gt;{L_FLATBOOTS_EXPLAIN}&lt;/p&gt;</code></pre>
+  
+    <p>The language variables <code>{L_FLATBOOTS_INTRO}</code> and <code>{L_FLATBOOTS_EXPLAIN}</code> are part of the BBcore and once installed they can be found and edited to reflect your own text in the following file:<code>your_forum_root/ext/sitesplat/BBCore/language/en/BBCore.php</code></p>
+    
+	
+	
+	<h4>Change the image and color</h4>
+	<p>The default icons image can be changed via CSS. Make sure to upload your image in:<code>FLATBOOTS/theme/images/</code> </p>
+	
+	<p>Add the following to <code>FLATBOOTS/theme/custom.css</code>:</p>
+	
+	<pre class="language-css"><code>.masthead:before {
+    background: url(&quot;./images/tile-bg-head.png&quot;);
+	background-color: #26bcb5;
+}</code></pre>
+	
+	<p>Replace <code>tile-bg-head.png</code> with the title of your image and save.</p>
+	
+	<p>If you have a transparent image you can also set the background color to it. In the default example is set to : <code>#26bcb5</code> Use the hex value to set your color.</p>
+	
+   
+	<h4>Turn ON/OFF the animation</h4>
+	<p>The animation can be easily turned on/off</p>
+	
+    <p>Open <code>FLATBOOTS/theme/custom.css</code> and add the following to turn the the animation off:</p>
+  
+    <pre class="language-css"><code>.masthead {
+    animation-name: sideupscroll-off;
+}</code></pre>
+  
+  
+    <div class="side-segment"><h3 id="footer">Footer</h3></div>
+	 <p>The footer is divided in tree main parts. Two sections and the actual footer block.</p>
+	 
+	 
+	 
+	 <ul>
+	   <li>Section one - Call To Action</li>
+	   <li>Section two containing:</li>
+	   <ul>
+	   <li>About us</li>
+	   <li>Twitter</li>
+	   </ul>
+	   <li>Footer block containing:</li>
+	   <ul>
+	   <li>Navigation Links</li>
+	   <li>Social links</li>
+	   </ul>
+	  </ul>
+	 
+	 <p>The footer template is located in: <code>FLATBOOTS/tempalte/overall_footer.html</code></p>
+	 
+	  <div class="space10"></div>
+	   <div class="space10"></div>
+	 <h4>Section one - Call To Action</h4>
+	 <p>This call to action bar can be found in the addons folder. Open: <code>FLATBOOTS/template/addons/call_to_action_body.html</code></p>
+	 
+	 <p>The language variables <code>{L_CALL_TO_ACTION_FOOTER}</code> and <code>{L_PURCHASE_NOW_BTN}</code> are part of the BBcore and once installed they can be found and edited to reflect your own text in the following file:<code>your_forum_root/ext/sitesplat/BBCore/language/en/BBcore.php</code></p>
+	 
+	 
+	 <div class="space10"></div>
+	  <div class="space10"></div>
+	 <h4>Section two - About us and Twitter</h4>
+	  <p>The about us text is accessible via language file. The variables are: <code>{L_FLATBOOTS_ABOUT_TITLE}</code> and <code>{L_FLATBOOTS_ABOUT_PART_ONE}</code> </p>
+	  <p>The Twitter block and function is explained in <a href="#twitter">Here</a></p>
+	 
+	 <p>The navigation links can be edited within the same <code>overall_footer.html</code> file. Find:</p>
+	 
+	 <pre class="language-markup"><code>&lt;ul class=&quot;list-inline footer-nav&quot;&gt;
+	 &lt;li&gt;&lt;a href=&quot;{U_ADVERTISE}&quot; title=&quot;&quot;&gt;{L_ADVERTISE}&lt;/a&gt;&lt;/li&gt;
+	 &lt;li&gt;&lt;a href=&quot;{U_PRIVACY}&quot; title=&quot;&quot;&gt;{L_PRIVACY}&lt;/a&gt;&lt;/li&gt;
+	 &lt;li&gt;&lt;a href=&quot;{U_DMCA}&quot; title=&quot;&quot;&gt;{L_DMCA}&lt;/a&gt;&lt;/li&gt;
+	 &lt;li&gt;&lt;a href=&quot;{U_TERMS_USE}&quot; title=&quot;&quot;&gt;{L_TERMS}&lt;/a&gt;&lt;/li&gt;
+	 &lt;li&gt;&lt;a href=&quot;{U_CONTACT}&quot; title=&quot;&quot;&gt;{L_CONTACT}&lt;/a&gt;&lt;/li&gt;
+	 &lt;/ul&gt;</code></pre>
+	 
+	 <p>and change, edit or add links contained the the block.</p>
+	 
+	 <p>The social links and icons are explained here: <a href="#social">Social links</a></p>
+	 
+</div>
+
+  <!-- Alerts ================================================== -->
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="recent-topic">Recent Topics <small>"Custom Extensions"</small></h1>
+    </div>
+
+	<img class="img-responsive center-block" src="images/recent-t.png" alt="Recent topics">
+	
+	  <p>The Ajax Fancy Lazy Topics Loader can be downloaded for free from: <a href="http://www.sitesplat.com/phpBB3/viewtopic.php?f=17&t=723">SiteSplat - Fancy Lazy Topic Loader</a></p>
+
+	<div class="bs-callout bs-callout-warning">
+      <h4>Fancy Lazy Topics Loader $250+ value!</h4>
+      <p>It can be installed via "Upload extension" or drop directly into the ext folder.</p>
+    </div>
+      
+	<h5>Fancy Lazy Topics Loader Options (Under ACP > General: Board index):</h5>
+    
+    <img class="img-responsive center-block" src="images/flatloader.png" alt="Recent topics">
+	<div class="space10"></div>
+	
+	 <ol>
+	  <li>Posts to display</li>
+	  <li>Topic Fetch Limit</li>
+	  <li>Sort order</li>
+	  <li>Forum exclusion</li>
+	 </ol>
+   </div>
+  
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="translations">TRANSLATIONS</h1>
+    </div>
+
+	
+	  <p>You can add your own language pack to your forum by downloading and installing the official phpBB3 language packs here: <a href="https://www.phpbb.com/languages/">Language Packs</a></p>
+	  
+	  <p>Once the language pack is installed you need to translate the FLATBOOTS's own language file. This file gets installed automatically with the BBcore package. </p>
+	  <p> The location is: <strong>ext/sitesplat/language/en/BBcore.php</strong>. Open BBcore.php file with <a href="http://notepad-plus-plus.org/">notepad++</a>, translate the content and save. Now you need to add the BBcore.php file to your language pack folder inside the BBcore ext/language/ (previously installed) directory. For example if you installed French, the location where to copy the BBcore.php file will be in: <strong>root/ext/sitesplat/language/fr/</strong></p>
+	
+	<div class="bs-callout bs-callout-warning">
+      <h4>Language packs already available</h4>
+      <p>check out the official support forum at: <a href="http://www.sitesplat.com/phpBB3/">FLATBOOTS Language Packs</a> and see if there is already a language file translated.</p>
+    </div>
+      
+  </div>
+  
+  
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="extensions">EXTENSIONS</h1>
+    </div>
+     
+	   <img class="img-responsive center-block" src="images/extensions.jpg" alt="Extensions">
+	<div class="space10"></div>
+	
+	  <p>Extension is the new phpBB 3.2 system which allows the forum Admin to "Extend" the basic phpBB forum functionality. If you are familiar to WordPress with the plugins system you will find to be comfortable with the extensions as well.</p>
+	  <p>Once uploaded in the "ext" directory on your server, forum root, you will be able to enable it directly from the Administration Control Panel with a click of a button.</p>
+	  
+	
+	<div class="bs-callout bs-callout-info">
+      <h4>Tons of free extensions</h4>
+      <p>check out the official, ever growing community support forum at: <a href="http://www.sitesplat.com/">http://sitesplat.com</a> to find all the extensions available. You can also place requests for new extensions and/or order custom development to shape your community to your needs!</p>
+    </div>
+      
+  </div>
+  
+  
+  
+       
+   </div><!-- col-md-9  block -->
+  </div>
+ </div>
+</div>
+
+
+  <div class="mastbottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+		      <p class="call-to-action">HELP FELLOW ADMINS AND ME BY RATING FLATBOOTS 5 STARS!</p>
+			</div>
+			<div class="col-md-3">
+			  <a href="http://goo.gl/pQldO9" class="btn btn-xl btn-danger pull-right" title="">
+			   <span class="rating">
+                <span class="star"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+                </span><br>RATE HERE
+			  </a>
+			</div>
+		</div>
+	</div>
+  </div>
+    
+	<footer class="burned-asphalt" role="contentinfo"> <!-- Footer block -->
+		<div class="midnight-" id="sub-footer">
+			<div class="container">
+				<div class="row bottomLinks">
+					
+					<div class="col-sm-6 sm-direction">
+					 <p class="copyrights">
+					  <small>HandCrafted&nbsp;<i class="fa fa-heart text-danger"></i>&nbsp;and&nbsp;<i class="fa fa-coffee"></i>&nbsp;By<a href="http://www.sitesplat.com/" title="SiteSplat.com" target="_blank">&nbsp;SiteSplat</a></small>
+					 </p>
+					</div>
+					
+					<div class="col-sm-6 sm-direction">	
+						<div class="clearfix socialbar">
+							<div class="social-network">
+								<a class="twitter-color" title="Twitter" data-original-title="" href="http://twitter.com/SiteSplat"><i class="fa fa-twitter"></i></a>
+								<a class="envato-color" title="Envato" data-original-title="" href="http://themeforest.net/user/ThemeSplat/portfolio?ref=ThemeSplat"><i class="icon-moon-envato1"></i></a>
+							</div>
+						</div>
+					</div>	
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+<a id="totop" class="topstyle" href="" onclick="return false;" style="display:none;"></a>
+<!-- /container --> 
+
+<!-- Placed at the end of the document so the pages load faster --> 
+<!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
+<script src="assets/js/prism/prism.js"></script> 
+<script>
+$(document).ready(function(){
+    $('body').scrollspy({ target: '.bs-sidebar' });
+      $('[data-spy="scroll"]').each(function () {
+      var $spy = $(this).scrollspy('refresh')
+    })
+	var totop=$("#totop");totop.click(function(){$("html, body").stop(true,true).animate({scrollTop:0},500);return false});$(window).scroll(function(){if($(this).scrollTop()>600){totop.fadeIn()}else{totop.fadeOut()}});
+});
+</script>
+</body>
+</html>
